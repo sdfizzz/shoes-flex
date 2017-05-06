@@ -3,11 +3,82 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
-
+  <link rel="stylesheet" href="./css/flexboxgrid.css" type="text/css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+  <div class="row">
+    <aside class="col-xs-3">
+      <div id="aside-container">
+        <img src="img/logo.png" srcset="img/logo@2x.png 2x,
+					 img/logo@3x.png 3x" class="logo">
+        <div class="search-container">
+          <img src="img/group.svg" class="group">
+        </div>
+        <div class="grey-rectangle">
+        </div>
+        <!--  NAVIGATION  -->
+        <nav id="main-menu">
+          <a href="#" class="active">
+            <span>SPORTS</span>
+            <img src="img/group-2.svg" class="menu-arrow">
+          </a>
+          <nav id="sub-menu">
+            <a href="#" class="active">SHOES</a>
+            <a href="#">CLOTHING</a>
+            <a href="#">ACCESORIES</a>
+          </nav>
+          <a href="#">BRANDS</a>
+          <a href="#">MICOACH</a>
+        </nav>
+      </div>
+    </aside>
+    <!--  GOOODS PANEL  -->
+    <section class="goods-panel col-xs-9">
+      <!-- filter tool bars -->
+      <div class="row" id="filter-panel">
+        <div class="col-xs">
+          <div class="col-xs-1 filter-image-wrapper">
+            <img src="./img/filter.png" srcset="img/filter@2x.png 2x,
+    					 img/filter@3x.png 3x" class="filter">
+          </div>
+          <div class="col-xs-3 filter-item" id="male-female-filter">
+            <button class="active">MAN</button>
+            <button>WOMAN</button>
+          </div>
+          <div class="col-xs-5 filter-item" id="size-filter">
+            <span class="active">SIZE</span>
+            <button>36</button>
+            <button>37</button>
+            <button>38</button>
+            <button>39</button>
+            <button>40</button>
+            <button class="active">41</button>
+            <button>42</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- goods -->
+      <div class="row goods-table">
+        <div class="row goods-row">
+          <div class="good-item col-xs-3">
+            <span></span>
+            <img>
+            <a href="#"> </a>
+          </div>
+          <div class="good-item col-xs-3"> </div>
+          <div class="good-item col-xs-3"> </div>
+        </div>
+        <div class="row goods-row">
+        </div>
+        <div class="row goods-row">
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>

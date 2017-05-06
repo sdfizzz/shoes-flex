@@ -1,0 +1,126 @@
+body {
+  background-color: #000;
+  width: 1439px;
+  height: 1024px;
+  margin: auto 0;
+}
+
+aside {
+  height: 1024px;
+  display: block;
+}
+
+section {
+  height: 1024px;
+  background-color: #fff;
+}
+
+.goods-panel {
+  padding: 0 23px;
+}
+
+#filter-panel {
+  height: 55px;
+  color: #dedede;
+  margin-top: 11px;
+  font-style: AvenirNext-Bold;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#filter-panel .active {}
+
+.filter-image-wrapper {
+  width: 55px;
+  margin: 0;
+  background-color: #ebebeb;
+}
+
+.filter {
+  max-height: 25px;
+  max-width: 160px;
+}
+
+#aside-container {
+  padding: 0 15px;
+  display: block;
+}
+
+#main-menu {
+  margin: 148px auto;
+  text-align: center;
+  font-family: AvenirNextBold;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+}
+
+#main-menu a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 26px;
+  color: #3c3c3c;
+}
+
+#main-menu .active {
+  color: #fff;
+  vertical-align: middle;
+}
+
+#sub-menu {
+  font-family: AndaleMono;
+}
+
+.logo {
+  display: block;
+  width: 94px;
+  height: 94px;
+  margin: 31px auto;
+  object-fit: contain;
+}
+
+.search-container {
+  margin-bottom: 5px;
+}
+
+.grey-rectangle {
+  height: 4px;
+  opacity: 0.56;
+  background-color: #373737;
+}
+
+.menu-arrow {
+  width: 14px;
+  padding-bottom: 4px;
+}
+
+#male-female-filter {
+  margin-left: 36px;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.goods-table {}
+
+.goods-row {
+  height: 311px;
+  background-color: #f4f4f4;
+}
+
+.goods-item {
+  border: none;
+  background: none;
+}
+
+@font-face {
+  font-family: AvenirNextBold;
+  src: url(../fonts/avenir-next-bold/avenir-next-bold.woff);
+}
+
+@@font-face {
+  font-family: AndaleMono;
+  src: url(../fonts/andale-mono/andale-mono.woff);
+}
