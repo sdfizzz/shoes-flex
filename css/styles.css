@@ -1,92 +1,23 @@
+@font-face {
+  font-family: AvenirNextBold;
+  src: url(../fonts/avenir-next-bold/avenir-next-bold.woff);
+}
+
+@@font-face {
+  font-family: AndaleMono;
+  src: url(../fonts/andale-mono/andale-mono.woff);
+}
+
 body {
   background-color: #000;
-  width: 1439px;
-  height: 100%;
-  margin: auto 0;
-  padding: 0;
   font-family: AvenirNext-Bold;
-}
-
-aside {
-  height: 1024px;
-  display: block;
-}
-
-section {
-  height: 1024px;
-  background-color: #fff;
-}
-
-.goods-panel {
-  padding: 0 23px;
-}
-
-#filter-panel {
-  display: table;
-  height: 55px;
-  margin: 11px 0 0 0;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-#filter-panel .active {
-  color: #4d42f8;
-}
-
-.filter-item {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.filter-item button {
-  font-weight: bold;
-}
-
-.filter-image-wrapper {
-  width: 55px;
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ebebeb;
-}
-
-.filter-image-wrapper img {}
-
-.filter {
-  max-height: 25px;
-  max-width: 160px;
-  display: block;
-  margin: 0 auto;
-  vertical-align: middle;
+  margin: 0;
+  padding: 0;
 }
 
 #aside-container {
   padding: 0 15px;
   display: block;
-}
-
-#main-menu {
-  margin: 148px auto;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  display: block;
-}
-
-#main-menu a {
-  text-decoration: none;
-  display: block;
-  margin-bottom: 26px;
-  color: #3c3c3c;
-}
-
-#main-menu .active {
-  color: #fff;
-  vertical-align: middle;
-}
-
-#sub-menu {
-  font-family: AndaleMono;
 }
 
 .logo {
@@ -112,51 +43,66 @@ section {
   padding-bottom: 4px;
 }
 
-#male-female-filter {
-  padding-left: 36px;
+#main-menu {
+  margin: 148px auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
 }
 
-#size-filter {
-  padding-left: 72px;
+#main-menu a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 26px;
+  color: #3c3c3c;
 }
 
-button {
+#main-menu .selected {
+  color: #fff;
+}
+
+#sub-menu {
+  font-family: AndaleMono;
+}
+
+.goods-panel {
+  background-color: #fff;
+}
+
+.filter-panel {
+  display: table;
+  height: 55px;
+  margin: 11px 0 0 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.filter-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.filter-item button {
   border: none;
   background: none;
   color: #dedede;
+  font-weight: bold;
 }
 
-.goods-table {}
-
-.goods-row {
-  height: 311px;
-  background-color: #f4f4f4;
+.filter-item button .selected {
+  color: #fff;
 }
 
-.goods-item {
-  border: none;
-  background: none;
+.filter-item-head {
+  padding-right: 16px;
+  color: #4d42f8;
 }
 
-.item-img {}
-
-.item-price {}
-
-.sale-mark {
-  position: absolute;
-  margin-right: 16px;
-  margin-top: 16px;
-  width: 76px;
-  height: 32px;
-  background-color: #ff5c5c;
-}
-
-@font-face {
-  font-family: AvenirNextBold;
-  src: url(../fonts/avenir-next-bold/avenir-next-bold.woff);
-}
-
-@@font-face {
-  font-family: AndaleMono;
-  src: url(../fonts/andale-mono/andale-mono.woff);
+.filter-image-wrapper {
+  width: 55px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ebebeb;
 }
