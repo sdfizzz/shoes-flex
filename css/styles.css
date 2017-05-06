@@ -22,8 +22,9 @@ section {
 }
 
 #filter-panel {
+  display: table;
   height: 55px;
-  margin-top: 11px;
+  margin: 11px 0 0 0;
   font-weight: bold;
   font-size: 24px;
 }
@@ -32,15 +33,31 @@ section {
   color: #4d42f8;
 }
 
+.filter-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.filter-item button {
+  font-weight: bold;
+}
+
 .filter-image-wrapper {
   width: 55px;
-  margin: 0;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #ebebeb;
 }
+
+.filter-image-wrapper img {}
 
 .filter {
   max-height: 25px;
   max-width: 160px;
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
 #aside-container {
@@ -96,7 +113,11 @@ section {
 }
 
 #male-female-filter {
-  margin-left: 36px;
+  padding-left: 36px;
+}
+
+#size-filter {
+  padding-left: 72px;
 }
 
 button {
