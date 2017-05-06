@@ -73,7 +73,7 @@ body {
 .filter-panel {
   display: table;
   height: 55px;
-  margin: 11px 0 0 0;
+  margin: 11px 0 50px 0;
   font-weight: bold;
   font-size: 24px;
 }
@@ -81,6 +81,7 @@ body {
 .filter-item {
   display: table-cell;
   vertical-align: middle;
+  padding-right: 72px;
 }
 
 .filter-item button {
@@ -90,8 +91,8 @@ body {
   font-weight: bold;
 }
 
-.filter-item button .selected {
-  color: #fff;
+.filter-item .selected {
+  color: #4d42f8;
 }
 
 .filter-item-head {
@@ -101,8 +102,54 @@ body {
 
 .filter-image-wrapper {
   width: 55px;
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
+  height: 55px;
+  padding-left: 16px;
+  padding-top: 16px;
+  margin-right: 16px;
   background-color: #ebebeb;
+}
+
+.item-container {
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #fff;
+  padding: 6px 8.5px 9px 8.5px;
+  box-sizing: border-box;
+  margin-bottom: 17px;
+}
+
+.item-container .item-img {
+  width: 100%;
+}
+
+.item-price {
+  display: block;
+  font-size: 30px;
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 23px 0 27px 0;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.sale .item-price {
+  background-image: linear-gradient(107deg, #0c09bf, #966dd8);
+  color: #fff;
+}
+
+.sale-mark {
+  visibility: hidden;
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  background: #ff5c5c;
+}
+
+.sale .sale-mark {
+  visibility: visible;
 }
