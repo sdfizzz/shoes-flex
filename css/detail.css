@@ -1,11 +1,9 @@
 .main-panel {
   box-sizing: border-box;
-  margin: 0;
-  padding: 15px 31px 31px;
   background-color: #fff;
-  width: 100%;
-  height: 90%;
   font-family: AvenirNext-Bold;
+  margin-left: 31px;
+  margin-right: 31px;
 }
 
 .header-block {
@@ -46,19 +44,19 @@
   margin-left: 13px;
 }
 
-.header-right-block-labels .dark-gray {
+.header-right-block-labels .label-dark-gray {
   background-color: #c5c5c5;
 }
 
-.header-right-block-labels .blue {
+.header-right-block-labels .label-blue {
   background-color: #4d87ca;
 }
 
-.header-right-block-labels .black {
+.header-right-block-labels .label-black {
   background-color: #000;
 }
 
-.header-right-block-labels .gray {
+.header-right-block-labels .label-gray {
   background-color: #e0e0e0;
 }
 
@@ -69,7 +67,7 @@
   margin: 0;
 }
 
-.main-panel .sale-label {
+.main-panel .label-sale {
   padding: 7px 20px;
   background: #ff5c5c;
   text-transform: uppercase;
@@ -79,14 +77,12 @@
 }
 
 .galery {
-  display: flex;
-  flex-direction: column;
+  padding: 0 16px;
 }
 
-.galery .main-img {
+.main-img {
   display: block;
   width: 80%;
-  margin: 0 auto;
 }
 
 .galery .galery-items {
@@ -131,7 +127,6 @@
   font-size: 33px;
   font-weight: 800;
   color: #d8d8d8;
-  line-height: 1.52;
 }
 
 .about-text .about-text-first {
@@ -139,6 +134,7 @@
 }
 
 .footer-buy-button {
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 10%;

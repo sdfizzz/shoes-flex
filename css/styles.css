@@ -13,49 +13,20 @@
   src: url("../fonts/andale-mono/andale-mono.woff");
 }
 
-.row {
-  display: flex;
-  flex-flow: row nowrap;
-  flex: 1 0 100%;
-  justify-content: space-around;
-}
-
-.col-4 {
-  display: flex;
-  flex-flow: column nowrap;
-  flex-basis: 33.33%;
-  padding: 0 15px;
-}
-
-.col-xs-3, .col-xs-9 {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-body, aside {
-  margin: 0;
-  height: 100%;
-  background-color: #fff;
+body {
   font-family: AvenirNext-Bold;
+}
+
+.row-nowrap {
   display: flex;
   flex-flow: row nowrap;
-  padding: 0;
 }
 
-section {
-  padding: auto -1000;
-}
-
-#aside-container {
-  padding: 0 15px;
+.aside-container {
   display: block;
+  min-width: 414px;
   height: 100%;
+  padding: 31px 15px;
   background-color: #000;
 }
 
@@ -71,7 +42,7 @@ section {
   box-sizing: border-box;
   width: 100%;
   padding: 10px 14px 10px 56px;
-  background: #000 url(../img/search.svg) no-repeat 14px 7px;
+  background: #000 url("../img/search.svg") no-repeat 14px 7px;
   border: none;
   border-bottom: 4px solid #373737;
   color: #fff;
@@ -109,18 +80,24 @@ section {
   padding-bottom: 50px;
 }
 
-.filter-panel {
-  display: table;
+.goods-panel {
+  padding: 0 16px;
+}
+
+.filters-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 11px 8px 50px 0;
   height: 55px;
-  margin: 11px 0 50px 0;
-  font-weight: bold;
-  font-size: 24px;
+  width: 100%;
 }
 
 .filter-item {
-  display: table-cell;
   vertical-align: middle;
-  padding-right: 72px;
+  text-align: center;
+  padding-right: 36px;
+  width: auto;
+  margin: 12px;
 }
 
 .filter-item button {
@@ -131,6 +108,7 @@ section {
   background: none;
   color: #dedede;
   font-weight: bold;
+  outline: none;
 }
 
 .filter-item .selected {
@@ -139,31 +117,31 @@ section {
 
 .filter-item-head {
   padding-right: 16px;
+  font-size: 24px;
   color: #4d42f8;
 }
 
 .filter-image-wrapper {
   width: 55px;
   height: 55px;
-  margin-right: 16px;
   background-color: #ebebeb;
 }
 
-.filter {
+.filter-image {
   width: 33px;
   height: 33px;
   margin: 12px;
 }
 
 .item-container {
+  display: flex;
+  flex-flow: column nowrap;
   position: relative;
-  text-align: center;
   background-color: #f4f4f4;
   color: #fff;
   padding: 6px 8.5px 9px 8.5px;
   box-sizing: border-box;
-  margin-left: 12px;
-  margin-bottom: 17px;
+  margin: 0 8px 17px 8px;
 }
 
 .item-container .item-img {
@@ -174,6 +152,7 @@ section {
 .item-price {
   display: block;
   font-size: 30px;
+  text-align: center;
   color: #000;
   background-color: #fff;
   text-decoration: none;
