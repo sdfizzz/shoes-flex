@@ -95,6 +95,12 @@
   justify-content: space-around;
 }
 
+.galery .galery-items button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
 .galery .galery-items .more-images-icon {
   display: flex;
   flex-direction: column;
