@@ -89,6 +89,14 @@
   margin: 0 auto;
 }
 
+.galery .galery-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.galery-item-selection {}
+
 .about-text {
   font-family: AvenirNextReg;
   font-size: 33px;
