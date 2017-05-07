@@ -91,11 +91,34 @@
 
 .galery .galery-items {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
-.galery-item-selection {}
+.galery .galery-items .more-images-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 120px;
+  height: 30px;
+  margin: auto 0;
+  padding: 0 16px;
+}
+
+.galery .galery-items .more-images-icon .more-images-icon-line {
+  width: 100%;
+  height: 3px;
+  background-color: #d8d8d8;
+}
+
+.galery .galery-items .more-images-text {
+  color: #c0c0c0;
+  font-size: 20px;
+  font-family: AvenirNextReg;
+  text-align: left;
+  border: none;
+  background-color: inherit;
+}
 
 .about-text {
   font-family: AvenirNextReg;
