@@ -10,9 +10,11 @@
 
 .header-block {
   display: flex;
+  position: relative;
   max-height: 40px;
   width: 100%;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .header-block .header-left-block h1 {
@@ -74,6 +76,17 @@
   font-size: 14px;
   color: #fff;
   margin-left: 30px;
+}
+
+.galery {
+  display: flex;
+  flex-direction: column;
+}
+
+.galery .main-img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .about-text {
