@@ -4,8 +4,8 @@
   padding: 15px 31px 31px;
   background-color: #fff;
   width: 100%;
-  height: 100%;
-  font-family: AvenirNextBold;
+  height: 90%;
+  font-family: AvenirNext-Bold;
 }
 
 .header-block {
@@ -29,7 +29,7 @@
   border-radius: 50%;
   color: #fff;
   background-color: #e3e3e3;
-  font-family: AvenirNextBold;
+  font-family: AvenirNext-Bold;
 }
 
 .main-panel .header-right-block {
@@ -114,14 +114,14 @@
 .galery .galery-items .more-images-text {
   color: #c0c0c0;
   font-size: 20px;
-  font-family: AvenirNextReg;
+  font-family: AvenirNext-Reg;
   text-align: left;
   border: none;
   background-color: inherit;
 }
 
 .about-text {
-  font-family: AvenirNextReg;
+  font-family: AvenirNext-Reg;
   font-size: 33px;
   font-weight: 800;
   color: #d8d8d8;
@@ -135,10 +135,11 @@
 .footer-buy-button {
   bottom: 0;
   width: 100%;
-  height: 112px;
+  height: 10%;
   border: none;
   color: #fff;
-  font-family: AvenirNextBold;
+  text-transform: uppercase;
+  font-family: AvenirNext-Bold;
   font-size: 32px;
   background-image: linear-gradient(to right, #4949aa, #27275d);
 }

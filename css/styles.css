@@ -1,35 +1,69 @@
 @font-face {
-  font-family: AvenirNextBold;
-  src: url(../fonts/avenir-next-bold/avenir-next-bold.woff);
+  font-family: AvenirNext-Bold;
+  src: url("../fonts/avenir-next-bold/avenir-next-bold.woff");
 }
 
 @font-face {
-  font-family: AvenirNextReg;
-  src: url(../fonts/avenir-next-regular/avenir-next-regular.woff);
+  font-family: AvenirNext-Reg;
+  src: url("../fonts/avenir-next-regular/avenir-next-regular.woff");
 }
 
-@@font-face {
+@font-face {
   font-family: AndaleMono;
-  src: url(../fonts/andale-mono/andale-mono.woff);
+  src: url("../fonts/andale-mono/andale-mono.woff");
 }
 
-body {
-  background-color: #000;
-  font-family: AvenirNext-Bold;
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 0 100%;
+  justify-content: space-around;
+}
+
+.col-4 {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-basis: 33.33%;
+  padding: 0 15px;
+}
+
+.col-xs-3, .col-xs-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+body, aside {
+  margin: 0;
+  height: 100%;
+  background-color: #fff;
+  font-family: AvenirNext-Bold;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+}
+
+section {
+  padding: auto -1000;
 }
 
 #aside-container {
   padding: 0 15px;
   display: block;
+  height: 100%;
+  background-color: #000;
 }
 
 .logo {
   display: block;
   width: 94px;
-  height: 94px;
-  margin: 31px auto;
+  height: 125px;
+  margin: 0 auto;
   object-fit: contain;
 }
 
@@ -43,6 +77,7 @@ body {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
+  outline: 0;
 }
 
 .menu-arrow {
@@ -71,10 +106,7 @@ body {
 
 #sub-menu {
   font-family: AndaleMono;
-}
-
-.goods-panel {
-  background-color: #fff;
+  padding-bottom: 50px;
 }
 
 .filter-panel {
@@ -92,6 +124,9 @@ body {
 }
 
 .filter-item button {
+  font-family: AvenirNext-Bold;
+  font-size: 24px;
+  font-weight: bold;
   border: none;
   background: none;
   color: #dedede;
@@ -110,20 +145,24 @@ body {
 .filter-image-wrapper {
   width: 55px;
   height: 55px;
-  padding-left: 16px;
-  padding-top: 16px;
   margin-right: 16px;
   background-color: #ebebeb;
 }
 
+.filter {
+  width: 33px;
+  height: 33px;
+  margin: 12px;
+}
+
 .item-container {
-  display: block;
   position: relative;
   text-align: center;
   background-color: #f4f4f4;
   color: #fff;
   padding: 6px 8.5px 9px 8.5px;
   box-sizing: border-box;
+  margin-left: 12px;
   margin-bottom: 17px;
 }
 
@@ -148,7 +187,7 @@ body {
   color: #fff;
 }
 
-.sale-mark {
+.item-sale {
   visibility: hidden;
   position: absolute;
   top: 13px;
@@ -158,6 +197,6 @@ body {
   background: #ff5c5c;
 }
 
-.item-badge-sale .sale-mark {
+.item-badge-sale .item-sale {
   visibility: visible;
 }
