@@ -25,7 +25,6 @@ body {
 .aside-container {
   display: block;
   min-width: 414px;
-  height: 100%;
   padding: 31px 15px;
   background-color: #000;
 }
