@@ -13,6 +13,11 @@
   src: url("../fonts/andale-mono/andale-mono.woff");
 }
 
+@font-face {
+  font-family: AvenirMedium;
+  src: url("../fonts/avenir-medium.woff");
+}
+
 body {
   font-family: AvenirNext-Bold;
 }

@@ -82,27 +82,25 @@
   margin-left: 30px;
 }
 
-.galery {}
-
-.main-img {
+.product-main-img {
   display: block;
   width: 80%;
   margin: 0 auto;
 }
 
-.galery .galery-items {
+.product-galery-items {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
 
-.galery .galery-items button {
+.product-galery-items button {
   border: none;
   outline: none;
   background-color: inherit;
 }
 
-.galery .galery-items .more-images-icon {
+.product-galery-items .more-images-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -112,34 +110,35 @@
   padding: 0 16px;
 }
 
-.galery .galery-items .more-images-icon .more-images-icon-line {
+.product-galery-items .more-images-icon .more-images-icon-line {
   width: 100%;
   height: 3px;
   background-color: #d8d8d8;
 }
 
-.galery .galery-items .more-images-text {
+.product-galery-items .more-images-text {
+  font-size: 14px;
+  font-weight: 500;
   color: #c0c0c0;
-  font-size: 20px;
-  font-family: AvenirNext-Reg;
+  font-family: AvenirMedium;
   text-align: left;
   border: none;
   background-color: inherit;
 }
 
-.about-text {
-  font-family: AvenirNext-Reg;
+.product-description {
+  font-family: Avenir;
   font-size: 33px;
   font-weight: 800;
   line-height: 1.52;
   color: #d8d8d8;
 }
 
-.about-text .about-text-first {
+.product-description .product-description-first-letter {
   color: #6e6e6e;
 }
 
-.footer-buy-button {
+.product-buy-button {
   background-image: linear-gradient(to right, #4949aa, #27275d);
   position: -webkit-sticky;
   position: sticky;
