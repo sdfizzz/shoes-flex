@@ -1,9 +1,9 @@
 .main-panel {
+  display: block;
   box-sizing: border-box;
   background-color: #fff;
   font-family: AvenirNext-Bold;
-  margin-left: 31px;
-  margin-right: 31px;
+  padding: 15px 31px 31px 31px;
 }
 
 .header-block {
@@ -11,6 +11,7 @@
   position: relative;
   max-height: 40px;
   width: 100%;
+  margin-right: 20px;
   justify-content: space-between;
   z-index: 10;
 }
@@ -28,6 +29,7 @@
   color: #fff;
   background-color: #e3e3e3;
   font-family: AvenirNext-Bold;
+  outline: none;
 }
 
 .main-panel .header-right-block {
@@ -42,6 +44,7 @@
   width: 18px;
   height: 18px;
   margin-left: 13px;
+  outline: none;
 }
 
 .header-right-block-labels .label-dark-gray {
@@ -76,18 +79,17 @@
   margin-left: 30px;
 }
 
-.galery {
-  padding: 0 16px;
-}
+.galery {}
 
 .main-img {
   display: block;
   width: 80%;
+  margin: 0 auto;
 }
 
 .galery .galery-items {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-around;
 }
 
@@ -126,6 +128,7 @@
   font-family: AvenirNext-Reg;
   font-size: 33px;
   font-weight: 800;
+  line-height: 1.52;
   color: #d8d8d8;
 }
 
@@ -140,10 +143,11 @@
   bottom: 0;
   width: 100%;
   padding: 35px 0;
-  z-index: 2;
   font-size: 32px;
   color: #ffffff;
-  font-weight: bold;
+  font-family: AvenirNext-Bold;
   margin-top: 50px;
+  text-transform: uppercase;
   border: none;
+  outline: none;
 }

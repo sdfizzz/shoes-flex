@@ -20,12 +20,13 @@ body {
 .row-nowrap {
   display: flex;
   flex-flow: row nowrap;
+  flex-basis: 100%;
 }
 
 .aside-container {
   display: block;
   min-width: 414px;
-  padding: 31px 15px;
+  padding: 31px 22px;
   background-color: #000;
 }
 
@@ -45,6 +46,7 @@ body {
   border: none;
   border-bottom: 4px solid #373737;
   color: #fff;
+  font-family: AvenirNext-Bold;
   font-size: 24px;
   font-weight: bold;
   outline: 0;
@@ -86,7 +88,7 @@ body {
 .filters-container {
   display: flex;
   flex-flow: row nowrap;
-  margin: 11px 8px 50px 0;
+  margin: 11px 8px 50px 8px;
   height: 55px;
   width: 100%;
 }
@@ -173,6 +175,9 @@ body {
   padding: 7px 20px;
   text-transform: uppercase;
   background: #ff5c5c;
+  font-family: AvenirNext-Bold;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 .item-badge-sale .item-sale {
