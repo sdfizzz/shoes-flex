@@ -127,14 +127,14 @@
 }
 
 .product-description {
-  font-family: Avenir;
+  font-family: AvenirNext-Reg;
   font-size: 33px;
   font-weight: 800;
   line-height: 1.52;
   color: #d8d8d8;
 }
 
-.product-description .product-description-first-letter {
+.product-description .product-description-first-word {
   color: #6e6e6e;
 }
 

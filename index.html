@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="./css/flexboxgrid.css" type="text/css">
+  <link rel="stylesheet" href="./css/responsive-grid.css" type="text/css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="row-nowrap">
+<body>
   <aside class="aside-container">
     <img src="img/logo.png" srcset="img/logo@2x.png 2x,
 					 img/logo@3x.png 3x" class="logo">
@@ -32,30 +32,28 @@
   <!--  GOOODS PANEL  -->
   <section class="goods-panel">
     <!-- filter tool bars -->
-    <div class="row-nowrap">
-      <div class="filters-container">
-        <div class="filter-image-wrapper">
-          <img src="./img/filter.png" srcset="img/filter@2x.png 2x,
+    <div class="filters-container">
+      <div class="filter-image-wrapper">
+        <img src="./img/filter.png" srcset="img/filter@2x.png 2x,
     					 img/filter@3x.png 3x" class="filter-image">
-        </div>
-        <div class="filter-item" id="male-female-filter">
-          <button class="selected">MAN</button>
-          <button>WOMAN</button>
-        </div>
-        <div class="filter-item" id="size-filter">
-          <span class="filter-item-head">SIZE</span>
-          <button>36</button>
-          <button>37</button>
-          <button>38</button>
-          <button>39</button>
-          <button>40</button>
-          <button class="selected">41</button>
-          <button>42</button>
-        </div>
+      </div>
+      <div class="filter-item" id="male-female-filter">
+        <button class="selected">MAN</button>
+        <button>WOMAN</button>
+      </div>
+      <div class="filter-item" id="size-filter">
+        <span class="filter-item-head">SIZE</span>
+        <button>36</button>
+        <button>37</button>
+        <button>38</button>
+        <button>39</button>
+        <button>40</button>
+        <button class="selected">41</button>
+        <button>42</button>
       </div>
     </div>
     <!-- goods -->
-    <div class="row-nowrap">
+    <div class="row">
       <div class="col-4">
         <div class="item-container item-badge-sale">
           <img src="./img/bitmap.jpg" class="item-img">
@@ -78,7 +76,7 @@
         </div>
       </div>
     </div>
-    <div class="row-nowrap">
+    <div class="row">
       <div class="col-4">
         <div class="item-container">
           <img src="./img/bitmap.jpg" class="item-img">
