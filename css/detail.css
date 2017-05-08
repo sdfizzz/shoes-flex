@@ -1,4 +1,4 @@
-.main-panel {
+.product-main-panel {
   display: block;
   box-sizing: border-box;
   background-color: #fff;
@@ -22,7 +22,7 @@
   margin: 0;
 }
 
-.main-panel .header-left-block .button-save {
+.product-main-panel .header-left-block .button-save {
   height: 75px;
   width: 75px;
   border-width: 0;
@@ -33,7 +33,7 @@
   outline: none;
 }
 
-.main-panel .header-right-block {
+.product-main-panel .header-right-block {
   flex-direction: column;
   margin-top: 16px;
 }
@@ -65,7 +65,7 @@
   background-color: #e0e0e0;
 }
 
-.main-panel h2 {
+.product-main-panel h2 {
   font-size: 80px;
   color: #e2e2e2;
   font-weight: 400;
@@ -73,7 +73,7 @@
   text-align: right;
 }
 
-.main-panel .label-sale {
+.product-main-panel .label-sale {
   padding: 7px 20px;
   background: #ff5c5c;
   text-transform: uppercase;
@@ -88,19 +88,19 @@
   margin: 0 auto;
 }
 
-.product-galery-items {
+.product-carousel {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
 
-.product-galery-items button {
+.product-carousel button {
   border: none;
   outline: none;
   background-color: inherit;
 }
 
-.product-galery-items .more-images-icon {
+.product-carousel .product-carousel-item-separator {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -110,13 +110,13 @@
   padding: 0 16px;
 }
 
-.product-galery-items .more-images-icon .more-images-icon-line {
+.product-carousel-item-separator .product-carousel-separator-part {
   width: 100%;
   height: 3px;
   background-color: #d8d8d8;
 }
 
-.product-galery-items .more-images-text {
+.product-carousel .product-carousel-item-more {
   font-size: 14px;
   font-weight: 500;
   color: #c0c0c0;

@@ -20,6 +20,9 @@
 
 body {
   font-family: AvenirNext-Bold;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-basis: 100%;
 }
 
 .row-nowrap {
