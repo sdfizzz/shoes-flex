@@ -18,14 +18,8 @@
   src: url("../fonts/avenir-medium.woff");
 }
 
-body {
+.app-container {
   font-family: AvenirNext-Bold;
-  display: flex;
-  flex-flow: row nowrap;
-  flex-basis: 100%;
-}
-
-.row-nowrap {
   display: flex;
   flex-flow: row nowrap;
   flex-basis: 100%;

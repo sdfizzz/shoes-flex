@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import logo from "./logo.png";
+import logo1x from "./logo.png";
+import logo2x from "./logo@2x.png";
+import logo3x from "./logo@3x.png";
 
 class Logo extends Component {
   render() {
     return (
       <img
-        src={logo}
-        srcSet="./logo@2x.png 2x, ./logo@3x.png 3x"
+        src={logo1x}
+        srcSet={logo2x + " 2x, " + logo3x + " 3x"}
         alt=""
-        class="logo"
+        className="logo"
       />
     );
   }
