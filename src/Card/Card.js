@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import cardImg1x from "./bitmap.jpg";
 import cardImg2x from "./bitmap@2x.jpg";
 import cardImg3x from "./bitmap@3x.jpg";
@@ -13,7 +15,9 @@ class Card extends Component {
           alt=""
           className="item-img"
         />
-        <a href="./detail.html" className="item-price">$170</a>
+        <div className="item-price">
+          <Link to="/detail">$170</Link>
+        </div>
         <span className="item-sale">SALE</span>
       </div>
     );
