@@ -90,7 +90,9 @@
 .filters-container {
   display: flex;
   flex-flow: row nowrap;
-  margin: 11px 8px 50px 8px;
+  margin: 11px 0 50px 0;
+  padding-left: 8px;
+  padding-right: 8px;
   height: 55px;
   width: 100%;
 }

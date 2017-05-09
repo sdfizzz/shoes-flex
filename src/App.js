@@ -20,7 +20,9 @@ class App extends Component {
           <Menu />
         </aside>
         <section className="goods-panel">
-          <Filter />
+          <div className="row">
+            <Filter />
+          </div>
           <div className="row">
             <div className="col-4">
               <Card />

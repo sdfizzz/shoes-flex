@@ -11,6 +11,7 @@ class Filter extends Component {
           <img
             src={filter1x}
             srcSet={filter2x + " 2x, " + filter3x + " 3x"}
+            alt=""
             className="filter-image"
           />
         </div>
