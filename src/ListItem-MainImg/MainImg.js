@@ -9,7 +9,7 @@ class MainImg extends Component {
     return (
       <img
         src={main1x}
-        srcset={main2x + " 2x, " + main3x + " 3x"}
+        srcSet={main2x + " 2x, " + main3x + " 3x"}
         alt=""
         className="product-main-img"
       />

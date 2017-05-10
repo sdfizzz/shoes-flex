@@ -174,19 +174,22 @@
   color: #fff;
 }
 
-.item-sale {
+.label-sale {
+  background: #ff5c5c;
+  font-family: AvenirNext-Bold;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.item-badge-sale .label-sale {
   visibility: hidden;
   position: absolute;
   top: 13px;
   right: 16px;
   padding: 7px 20px;
-  text-transform: uppercase;
-  background: #ff5c5c;
-  font-family: AvenirNext-Bold;
-  font-size: 14px;
-  font-weight: 100;
 }
 
-.item-badge-sale .item-sale {
+.item-badge-sale .label-sale {
   visibility: visible;
 }

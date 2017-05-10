@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import LabelSale from "../Labels/Sale/Sale";
+
 class Header extends Component {
   render() {
     return (
@@ -14,7 +16,7 @@ class Header extends Component {
             <button className="label-blue" />
             <button className="label-black" />
             <button className="label-gray" />
-            <span className="label-sale">SALE</span>
+            <LabelSale />
           </div>
           <h2>$170</h2>
         </div>

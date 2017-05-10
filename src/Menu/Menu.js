@@ -7,7 +7,7 @@ class Menu extends Component {
       <nav id="main-menu">
         <a href="#" className="selected">
           <span>SPORTS</span>
-          <img src={arrow} alt="" class="menu-arrow" />
+          <img src={arrow} srcSet="" alt="" className="menu-arrow" />
         </a>
         <nav id="sub-menu">
           <a href="#" className="selected">SHOES</a>

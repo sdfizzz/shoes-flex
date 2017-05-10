@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+import LabelSale from "../Labels/Sale/Sale";
+
 import cardImg1x from "./bitmap.jpg";
 import cardImg2x from "./bitmap@2x.jpg";
 import cardImg3x from "./bitmap@3x.jpg";
@@ -18,7 +20,7 @@ class Card extends Component {
         <div className="item-price">
           <Link to="/detail">$170</Link>
         </div>
-        <span className="item-sale">SALE</span>
+        <LabelSale />
       </div>
     );
   }

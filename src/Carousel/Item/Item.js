@@ -10,7 +10,7 @@ class Item extends Component {
       <button>
         <img
           src={img1x}
-          srcset={img2x + " 2x, " + img3x + " 3x"}
+          srcSet={img2x + " 2x, " + img3x + " 3x"}
           alt=""
           className="product-carousel-item"
         />
