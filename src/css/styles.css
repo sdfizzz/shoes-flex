@@ -168,6 +168,9 @@
 
 .item-badge-sale .item-price {
   background-image: linear-gradient(107deg, #0c09bf, #966dd8);
+}
+
+.item-badge-sale .item-price a {
   color: #fff;
 }
 

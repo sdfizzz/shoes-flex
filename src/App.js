@@ -18,7 +18,7 @@ class App extends Component {
             <Search />
             <Menu />
           </aside>
-          <Route path="/" component={List} />
+          <Route exact path="/" component={List} />
           <Route path="/detail" component={ListItem} />
         </div>
       </Router>
