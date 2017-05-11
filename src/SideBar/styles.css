@@ -1,12 +1,6 @@
-/* SideBar.js */
-
-.aside-container {
+.sidebar-container {
   display: block;
-  min-width: 414px;
-  padding: 31px 22px;
+  min-width: 41.4rem;
+  padding: 3.1rem 2.2rem;
   background-color: #000;
-}
-
-.aside-container a {
-  text-decoration: none;
 }

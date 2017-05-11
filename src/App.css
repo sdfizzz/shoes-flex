@@ -1,21 +1,25 @@
 @font-face {
   font-family: AvenirNext-Bold;
-  src: url("./fonts/avenir-next-bold/avenir-next-bold.woff");
+  src: url("./fonts/avenir-next-bold.woff");
 }
 
 @font-face {
   font-family: AvenirNext-Reg;
-  src: url("./fonts/avenir-next-regular/avenir-next-regular.woff");
+  src: url("./fonts/avenir-next-regular.woff");
 }
 
 @font-face {
   font-family: AndaleMono;
-  src: url("./fonts/andale-mono/andale-mono.woff");
+  src: url("./fonts/andale-mono.woff");
 }
 
 @font-face {
   font-family: AvenirMedium;
   src: url("./fonts/avenir-medium.woff");
+}
+
+html {
+  font-size: 10px;
 }
 
 body {

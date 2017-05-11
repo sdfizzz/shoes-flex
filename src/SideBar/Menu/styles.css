@@ -1,9 +1,9 @@
 /* Menu.js */
 
 #main-menu {
-  margin: 148px auto;
+  margin: 14.8rem auto;
   text-align: center;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   display: block;
 }
@@ -11,20 +11,24 @@
 #main-menu div a {
   text-decoration: none;
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 2.6rem;
   color: #3c3c3c;
 }
 
-#main-menu .selected a {
+#main-menu .main-menu-selected a {
   color: #fff;
 }
 
 #sub-menu {
   font-family: AndaleMono;
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
+}
+
+#sub-menu .sub-menu-selected a {
+  color: #fff;
 }
 
 .menu-arrow {
-  width: 14px;
-  padding-bottom: 4px;
+  width: 1.4rem;
+  padding-bottom: .4rem;
 }

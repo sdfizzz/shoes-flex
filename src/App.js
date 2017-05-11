@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./App.css";
 
-import SideBar from "./SideBar/SideBar";
+import SideBar from "./SideBar";
 
-import List from "./ShoesShow/List";
-import ListItem from "./ShoesShow/ListItem";
+import List from "./List";
+import Show from "./Show";
 
 export default class App extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class App extends Component {
         <div className="app-container">
           <SideBar />
           <Route exact path="/" component={List} />
-          <Route path="/detail" component={ListItem} />
+          <Route path="/detail" component={Show} />
         </div>
       </Router>
     );
