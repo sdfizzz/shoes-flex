@@ -1,0 +1,15 @@
+/* Search.js */
+
+.search-container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 14px 10px 56px;
+  background: #000 url("./search.svg") no-repeat 14px 7px;
+  border: none;
+  border-bottom: 4px solid #373737;
+  color: #fff;
+  font-family: AvenirNext-Bold;
+  font-size: 24px;
+  font-weight: bold;
+  outline: 0;
+}

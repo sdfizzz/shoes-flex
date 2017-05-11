@@ -1,0 +1,30 @@
+/* Menu.js */
+
+#main-menu {
+  margin: 148px auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+}
+
+#main-menu div a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 26px;
+  color: #3c3c3c;
+}
+
+#main-menu .selected a {
+  color: #fff;
+}
+
+#sub-menu {
+  font-family: AndaleMono;
+  padding-bottom: 50px;
+}
+
+.menu-arrow {
+  width: 14px;
+  padding-bottom: 4px;
+}

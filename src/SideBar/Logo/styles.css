@@ -1,0 +1,9 @@
+/* Logo.js */
+
+.logo {
+  display: block;
+  width: 94px;
+  height: 125px;
+  margin: 0 auto;
+  object-fit: contain;
+}
